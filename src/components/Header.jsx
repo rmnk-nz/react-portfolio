@@ -2,8 +2,9 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <div>
-            Hello world
-        </div>
+        <header>
+            <h2>Web Developer Portfolio</h2>
+            <h1>Rua Manukau</h1>
+        </header>
     )
 }
