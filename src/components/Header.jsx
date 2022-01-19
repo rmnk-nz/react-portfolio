@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Header.css';
 
 export const Header = () => {
     return (
         <header>
-            <h2>Web Developer Portfolio</h2>
-            <h1>Rua Manukau</h1>
+            <h2>Full Stack Web Developer</h2>
         </header>
     )
 }
