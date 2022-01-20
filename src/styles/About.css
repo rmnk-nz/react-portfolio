@@ -21,3 +21,18 @@
     text-align: end;
     font-family: 'Syncopate', sans-serif;
 }
+i {
+    color: black;
+    margin: 10px;
+    font-size: 2rem;
+}
+i:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1500px) {
+    .aboutDiv {
+        margin: 50px 350px 50px 350px;
+    }
+}

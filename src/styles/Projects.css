@@ -1,0 +1,31 @@
+.projectsTitle {
+    margin-top: 50px;
+    margin-right: 200px;
+    text-align: end;
+    font-family: 'Syncopate', sans-serif;
+}
+.projectsDiv {
+    margin: 50px 100px 50px 100px; 
+    display: grid; 
+    grid-gap: 50px; 
+    grid-template-columns: auto auto;
+}
+.projectItems p {
+    text-align: center;
+}
+ .itemTitle {
+     display: flex;
+     flex-direction: row; 
+ }
+.projectImage {
+    align-items: center;
+    border-radius: 40px;
+}
+.projectImage:hover {
+    box-shadow: 4px 4px 4px rgb(207, 207, 207);
+}
+@media screen and (min-width: 1500px) {
+    .projectsDiv {
+        margin: 50px 350px 50px 350px;
+    }
+}

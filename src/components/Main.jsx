@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
 
 export default function Main() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -15,10 +14,7 @@ export default function Main() {
           if (currentPage === 'Projects') {
             return <Projects />;
           }
-          if (currentPage === 'Contact') {
-            return <Contact />;
-          }
-          return <Resume />;
+          return <Contact />;
         };
 
     const handlePageChange = (page) => setCurrentPage(page);
