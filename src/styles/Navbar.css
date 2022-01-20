@@ -1,0 +1,18 @@
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Syncopate', sans-serif;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+a {
+    color: rgb(203, 157, 241);
+    text-decoration: none;
+}
+.nav-item:hover {
+    text-shadow: none;
+}

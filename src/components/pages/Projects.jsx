@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Projects = () => {
+export default function Projects() {
     return (
         <div>
             <h2>Projects</h2>
@@ -11,5 +11,5 @@ export const Projects = () => {
                 <h3>Code Quiz</h3>
             </a>
         </div>
-    )
+    );
 }

@@ -1,16 +1,15 @@
 header {
-  background-image: url(../images/headerImage.png);
-  background-attachment: scroll;
-  background-position: top left;
-  height: 100px;
+  background-image: url(../images/header.png);
+  height: 80px;
   padding: 10px;
 }
 
 header h2 {
   font-family: 'Syncopate', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   color: whitesmoke;
+  margin-right: 20px;
   text-align: end;
-  text-shadow: 5px 5px black;
+  text-shadow: 2px 2px 2px black;
 }
