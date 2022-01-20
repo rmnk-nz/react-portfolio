@@ -20,9 +20,11 @@
 .projectImage {
     align-items: center;
     border-radius: 40px;
+    box-shadow: 4px 4px 4px rgb(207, 207, 207);
 }
 .projectImage:hover {
-    box-shadow: 4px 4px 4px rgb(207, 207, 207);
+    box-shadow: none;
+    border: solid 2px rgb(63, 63, 63);
 }
 @media screen and (min-width: 1500px) {
     .projectsDiv {
