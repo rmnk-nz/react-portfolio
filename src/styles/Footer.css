@@ -1,6 +1,9 @@
 footer {
-background-image: url(../images/header.png);
-background-position: center;
+margin: 20px;
+text-align: center;
 height: 80px;
 padding: 10px;
+}
+footer h3 {
+    font-family: 'Syncopate', sans-serif;
 }
