@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../styles/Projects.css';
+import image6 from '../../images/workdayscheduler.png';
+import image5 from '../../images/pwa.jpg';
 import image4 from '../../images/trackJournal.png';
 import image3 from '../../images/codequiz.png';
 import image2 from '../../images/weatherdashboard.png';
@@ -37,6 +39,22 @@ const projectData = [
         img: image4,
         link: 'https://annanguyen1.github.io/Track-Journal/homepage.html',
         github: 'https://github.com/AnnaNguyen1/Track-Journal',
+    },
+    {
+        id: '5',
+        title: 'Text Editor (PWA)',
+        description: 'Single page text editor application that runs in browser and demostrates the use of Progressive Web Applications.',
+        img: image5,
+        link: 'https://rmnk-nz-text-editor-pwa.herokuapp.com/',
+        github: 'https://github.com/rmnk-nz/text-editor-PWA',
+    },
+    {
+        id: '6',
+        title: 'Work Day Scheduler',
+        description: 'Simple calendar application that allows a user to save events for each work hour of the day. Features dynamically updated HTML and CSS powered by jQuery and Moment.js library',
+        img: image6,
+        link: 'https://rmnk-nz.github.io/work-day-scheduler/',
+        github: 'https://github.com/rmnk-nz/work-day-scheduler',
     }
 ]
 
