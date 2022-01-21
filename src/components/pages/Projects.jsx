@@ -33,7 +33,7 @@ const projectData = [
     {
         id: '4',
         title: 'Track Journal',
-        description: 'Group project - application for use to search walking tracks or parks nearby and document their experience. Technologies used include HTML/CSS/Javascript/Web-API',
+        description: 'Group project - application for users to search walking tracks or parks within 5km radius and document their experience. Technologies used include HTML/CSS/Javascript/Web-API',
         img: image4,
         link: 'https://annanguyen1.github.io/Track-Journal/homepage.html',
         github: 'https://github.com/AnnaNguyen1/Track-Journal',

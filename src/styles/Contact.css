@@ -1,0 +1,47 @@
+.contactTitle {
+    margin-top: 50px;
+    margin-right: 200px;
+    text-align: end;
+    font-family: 'Syncopate', sans-serif;
+}
+.contactForm {
+    background-image: url(../images/header.png);
+    background-position: top left;
+    border: solid 2px rgb(63, 63, 63);
+    border-radius: 0px 50px 50px 50px;
+    box-shadow: 7px 7px 7px rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 200px 80px 200px; 
+    padding: 20px;
+}
+form input {
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+button {
+    font-family: 'Syncopate', sans-serif;
+    padding: 10px 30px 10px 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+button:hover {
+    border-color: rgb(203, 157, 241);
+    color: rgb(203, 157, 241);
+    cursor: pointer;
+}
+.messageBox {
+    height: 100px;
+    text-align: center;
+}
+@media screen and (min-width: 1500px) {
+    .messageBox {
+        height: 200px;
+    }
+}
