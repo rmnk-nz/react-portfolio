@@ -1,9 +1,16 @@
 footer {
-margin: 20px;
+color: whitesmoke;
+background-image: url(../images/footer.png);
+background-position: top right;
 text-align: center;
 height: 80px;
 padding: 40px;
 }
 footer h3 {
     font-family: 'Syncopate', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+footer i {
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
 }

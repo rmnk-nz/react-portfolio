@@ -5,9 +5,7 @@
     font-family: 'Syncopate', sans-serif;
 }
 .contactForm {
-    background-image: url(../images/header.png);
-    background-position: top left;
-    border: solid 2px rgb(63, 63, 63);
+    background-image: url(../images/footer.png);
     border-radius: 0px 50px 50px 50px;
     box-shadow: 7px 7px 7px rgb(207, 207, 207);
     display: flex;
