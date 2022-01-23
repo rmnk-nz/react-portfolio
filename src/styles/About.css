@@ -10,6 +10,7 @@
 }
 .description {
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     border: solid 2px rgb(63, 63, 63);
     font-size: 1.2rem;
@@ -34,5 +35,9 @@ i:hover {
 @media screen and (min-width: 1500px) {
     .aboutDiv {
         margin: 50px 350px 50px 350px;
+    }
+    .description {
+        font-size: 1.4rem;
+        padding: 50px 80px 50px 80px;
     }
 }
